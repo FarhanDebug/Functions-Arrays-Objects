@@ -8,9 +8,14 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
-  }
+function multiply(numa, numb){
+  return numa * numb
+}
+console.log(multiply(3, 2))
+  
+
+
+  
 
 
 /*
@@ -25,10 +30,8 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function catYears(/*add your code here*/){
-    /*add your code here*/
-}
-
+console.log(catYears (7));
+function catYears(n) { return n * 21}
 
 
 
@@ -62,6 +65,21 @@ let add = function (param1, param2) {
 add(1,2);
 
 */
+myFunction=>{
+}
+  console.log("Function was invoked!");
+
+  myFunction=> {
+}
+console.log("param");
+
+const add = (param1, param2)=> param1 + param2
+
+console.log(add(4, 5))
+ 
+ 
+
+
 
 
 
@@ -84,8 +102,17 @@ Use the game function below to do the following:
 */
 
 function game(user, computer){
-    /*add your code here*/
+const shapes = ['rock', 'paper', 'sicissor'];
+  Math.random();
+  return(shapes[random]);
+};
+if (user === computer){
+  console.log("it's a tie");
+}else if ( user === 'rock' && computer === 'paper'){
+   console.log("you lose!");
 }
+else if (user === 'scissors' && computer === 'paper'){
+  } console.log("you win!");
 
 
 
